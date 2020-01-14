@@ -22,6 +22,9 @@
                                 <state key="normal" title="ClickMe">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnFunction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Tg-6V-QyM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My First Application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciS-Eb-AsZ">
                                 <rect key="frame" x="132" y="123" width="151" height="21"/>
@@ -40,6 +43,9 @@
                         <color key="backgroundColor" red="0.081382729113101959" green="0.1924031674861908" blue="0.36544868350028992" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="txtCode" destination="1Wo-2I-HfQ" id="KUk-TW-zI5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
